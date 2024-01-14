@@ -126,8 +126,6 @@ clear= Button(window,text='clear',height=1,width=6,bg='skyblue',
               fg='brown',font='arial 35',command=clear)
 clear.pack(padx=3,pady=3)
 
-
-
 window.mainloop()
 
 
