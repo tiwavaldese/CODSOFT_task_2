@@ -127,46 +127,6 @@ clear= Button(window,text='clear',height=1,width=6,bg='skyblue',
 clear.pack(padx=3,pady=3)
 
 
-#frame = tk.Frame(master=window,bg="skyblue", padx=10)
-#frame.pack()
-#entry=tk.Entry(master=frame,relief=SUNKEN,borderwidth=3,width=30)
-#entry.grid(row=0,column=0,columnspan=4,ipady=2,pady=2)
-
-#print("Select Operations to perform: ")
-#print("1.Addition\n"
-      #"2.Substraction\n"
-      #"3.Multiplication\n"
-      #"4.Division")
-
-#operation = input()
-#Addition
-#if operation == "1":
-    #num1 =input("Input first number: ")
-    #num2 = input("Input second number: ")
-    #print("sum of "+ str(int(num1) + int(num2)))
-
-#Substraction
-#elif operation == "2":
-    #num1 =input("Input first number: ")
-    #num2 = input("Input second number: ")
-    #print("difference of "+ str(int(num1) - int(num2)))
-
-#Multiplication
-#elif operation == "3":
-    #num1 =input("Input first number: ")
-    #num2 = input("Input second number: ")
-    #print("product of "+ str(int(num1) * int(num2)))
-
-#Division
-#elif operation == "4":
-    #num1 =input("Input first number: ")
-    #num2 = input("Input second number: ")
-    #print("result of "+ str(int(num1) / int(num2)))
-    
-
-#else:
-    #print("Invalid entry")
-    
 
 window.mainloop()
 
